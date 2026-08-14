@@ -19,8 +19,8 @@ int main() {
         cin>>x;
         sum += x;
     }
-    int total = (n*(n+1)/2);
-    int ans = total - sum;
+    ll total = (n*(n+1)/2);
+    ll ans = total - sum;
     cout<<ans<<"\n";
  
  
