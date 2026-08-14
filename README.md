@@ -2,7 +2,7 @@
 
 Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/) progress, synced via **CSES to GitHub Extension**.
 
-![Problems Solved](https://img.shields.io/badge/CSES_Solved-0%2F300-brightgreen?style=for-the-badge&logo=codeforces)
+![Problems Solved](https://img.shields.io/badge/CSES_Solved-1%2F300-brightgreen?style=for-the-badge&logo=codeforces)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B%20%7C%20Python%20%7C%20Java-blue?style=for-the-badge)
 ![Auto Sync](https://img.shields.io/badge/Synced_By-CSES_Extension-orange?style=for-the-badge)
 
@@ -10,7 +10,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 
 | Category | Solved | Total | Progress |
 | :--- | :---: | :---: | :--- |
-| **Introductory Problems** | 0 | 24 | ░░░░░░░░░░ 0% |
+| **Introductory Problems** | 1 | 24 | ░░░░░░░░░░ 4% |
 | **Sorting and Searching** | 0 | 35 | ░░░░░░░░░░ 0% |
 | **Dynamic Programming** | 0 | 19 | ░░░░░░░░░░ 0% |
 | **Graph Algorithms** | 0 | 36 | ░░░░░░░░░░ 0% |
@@ -26,12 +26,14 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 
 ## 📁 Solutions Directory
 
+<details open>
+<summary><b>Introductory Problems (1)</b></summary>
 
-*Last synchronized: Thu, 13 Aug 2026 07:12:04 GMT*
+| ID | Problem Title | Solution | Language | Runtime | Memory |
+| :---: | :--- | :---: | :---: | :---: | :---: |
+| 1068 | [Weird Algorithm](https://cses.fi/problemset/task/1068) | [Code](./Introductory_Problems/Weird_Algorithm/Weird_Algorithm.cpp) | `C++` | 0.00 s | 0 MB |
+
+</details>
 
 
-## 📑 Solutions Index
-
-| Problem | Category | Solutions |
-| :--- | :--- | :--- |
-| Weird Algorithm | Introductory Problems | [ C++ ](https://github.com/Ramanand-tomar/CSES-Solutions/blob/main/Introductory_Problems/Weird_Algorithm/Weird_Algorithm.cpp) |
+*Last synchronized: Fri, 14 Aug 2026 10:59:51 GMT*
