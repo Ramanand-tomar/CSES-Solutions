@@ -1,18 +1,17 @@
 /*
- * Problem Name: Weird_Algorithm
- * Language: C++
- * Category: Introductory_Problems
- * Date: 2026-08-14
- */
+ * Problem Name: Weird Algorithm
+ * Problem ID: 1068
+ * Category: Introductory Problems
+ * CSES URL: https://cses.fi/problemset/task/1068
+*/
 
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
- 
+using ll = long long;
+
 int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    int n;
-    cin>>n;
+    ll n;
+    cin >> n;
     while (true) {
         cout << n << " ";
         if (n == 1) break;
@@ -22,8 +21,5 @@ int main() {
             n = 3 * n + 1;
         }
     }
- 
- 
- 
-    return 0;
+    cout << "\n";
 }
