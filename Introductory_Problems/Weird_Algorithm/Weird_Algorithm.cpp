@@ -1,8 +1,8 @@
 /*
- * Problem Name: Weird_Algorithm
- * Language: C++
- * Category: Introductory_Problems
- * Date: 2026-08-14
+ * Problem Name: Weird Algorithm
+ * Problem ID: 1068
+ * Category: Introductory Problems
+ * CSES URL: https://cses.fi/problemset/task/1068
  */
 
 #include <bits/stdc++.h>
