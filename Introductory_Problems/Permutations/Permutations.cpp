@@ -13,8 +13,9 @@ int main() {
     cin.tie(nullptr);
     int n ;
     cin>>n;
-    if(n < 4){
+    if(n < 4 && n > 1){
         cout<<"NO SOLUTION";
+        return 0;
     }
     
     int x = 1;
