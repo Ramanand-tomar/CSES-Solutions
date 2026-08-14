@@ -1,8 +1,8 @@
 /*
- * Problem Name: Missing_Number
- * Language: C++
- * Category: Introductory_Problems
- * Date: 2026-08-14
+ * Problem Name: Missing Number
+ * Problem ID: 1083
+ * Category: Introductory Problems
+ * CSES URL: https://cses.fi/problemset/task/1083
  */
 
 #include <bits/stdc++.h>
