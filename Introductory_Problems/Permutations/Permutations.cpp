@@ -24,7 +24,7 @@ int main() {
         }
  
     }
-    int x = 1;
+    x = 1;
     for(int i = 0 ; i < n ; i++){
         if(x%2 != 0){
             cout<<x<<" ";
