@@ -37,11 +37,4 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 </details>
 
 
-*Last synchronized: Fri, 14 Aug 2026 12:30:25 GMT*
-
-
-## 📑 Solutions Index
-
-| Problem | Category | Solutions |
-| :--- | :--- | :--- |
-| Missing Number | Introductory Problems | [ C++ ](https://github.com/Ramanand-tomar/CSES-Solutions/blob/main/Introductory_Problems/Missing_Number/Missing_Number.cpp) |
+*Last synchronized: Fri, 14 Aug 2026 12:32:38 GMT*
