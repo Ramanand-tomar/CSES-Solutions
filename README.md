@@ -36,11 +36,4 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 </details>
 
 
-*Last synchronized: Fri, 14 Aug 2026 11:02:04 GMT*
-
-
-## 📑 Solutions Index
-
-| Problem | Category | Solutions |
-| :--- | :--- | :--- |
-| Weird Algorithm | Introductory Problems | [ C++ ](https://github.com/Ramanand-tomar/CSES-Solutions/blob/main/Introductory_Problems/Weird_Algorithm/Weird_Algorithm.cpp) |
+*Last synchronized: Fri, 14 Aug 2026 11:03:38 GMT*
