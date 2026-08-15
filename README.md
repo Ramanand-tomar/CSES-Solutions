@@ -2,7 +2,7 @@
 
 Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/) progress, synced via **CSES to GitHub Extension**.
 
-![Problems Solved](https://img.shields.io/badge/CSES_Solved-6%2F300-brightgreen?style=for-the-badge&logo=codeforces)
+![Problems Solved](https://img.shields.io/badge/CSES_Solved-7%2F300-brightgreen?style=for-the-badge&logo=codeforces)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B%20%7C%20Python%20%7C%20Java-blue?style=for-the-badge)
 ![Auto Sync](https://img.shields.io/badge/Synced_By-CSES_Extension-orange?style=for-the-badge)
 
@@ -10,7 +10,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 
 | Category | Solved | Total | Progress |
 | :--- | :---: | :---: | :--- |
-| **Introductory Problems** | 6 | 24 | ███░░░░░░░ 25% |
+| **Introductory Problems** | 7 | 24 | ███░░░░░░░ 29% |
 | **Sorting and Searching** | 0 | 35 | ░░░░░░░░░░ 0% |
 | **Dynamic Programming** | 0 | 19 | ░░░░░░░░░░ 0% |
 | **Graph Algorithms** | 0 | 36 | ░░░░░░░░░░ 0% |
@@ -27,7 +27,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 ## 📁 Solutions Directory
 
 <details open>
-<summary><b>Introductory Problems (6)</b></summary>
+<summary><b>Introductory Problems (7)</b></summary>
 
 | ID | Problem Title | Solution | Language | Runtime | Memory |
 | :---: | :--- | :---: | :---: | :---: | :---: |
@@ -35,10 +35,11 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 | 1069 | [Repetitions](https://cses.fi/problemset/task/1069) | [Code](./Introductory_Problems/Repetitions/Repetitions.cpp) | `C++` | 0.00 s | 0 MB |
 | 1070 | [Permutations](https://cses.fi/problemset/task/1070) | [Code](./Introductory_Problems/Permutations/Permutations.cpp) | `C++` | 0.00 s | 0 MB |
 | 1071 | [Number Spiral](https://cses.fi/problemset/task/1071) | [Code](./Introductory_Problems/Number_Spiral/Number_Spiral.cpp) | `C++` | 0.00 s | 0 MB |
+| 1072 | [Two Knights](https://cses.fi/problemset/task/1072) | [Code](./Introductory_Problems/Two_Knights/Two_Knights.cpp) | `C++` | 0.00 s | 0 MB |
 | 1083 | [Missing Number](https://cses.fi/problemset/task/1083) | [Code](./Introductory_Problems/Missing_Number/Missing_Number.cpp) | `C++` | 0.00 s | 0 MB |
 | 1094 | [Increasing Array](https://cses.fi/problemset/task/1094) | [Code](./Introductory_Problems/Increasing_Array/Increasing_Array.cpp) | `C++` | 0.00 s | 0 MB |
 
 </details>
 
 
-*Last synchronized: Sat, 15 Aug 2026 09:54:30 GMT*
+*Last synchronized: Sat, 15 Aug 2026 10:47:21 GMT*
