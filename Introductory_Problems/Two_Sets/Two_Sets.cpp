@@ -7,57 +7,78 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-using ll = long long ;
+ 
+using ll = long long;
+ 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int n ;
-    cin>>n;
-    ll total_sum = 1ll*n*(1ll*n+1)/2;
-    if(total_sum%2 != 0){
-        cout<<"NO\n";
-    }
-    else{
-        cout<<"YES\n";
-        vector<int>set1 , set2;
-        vector<int>vis(n+1,0);
-        int max_element = n;
-        ll set1_sum = 0;
-        while(set1_sum < total_sum/2){
-            ll remaining_sum = total_sum/2 - set1_sum;
-            if(remaining_sum > max_element){
-                vis[max_element] = 1;
-                set1.push_back(max_element);
-                max_element--;
-                set1_sum += max_element;
-                
  
-            }
-            else{
-                set1.push_back(remaining_sum);
-                vis[remaining_sum] = 1;
-                set1_sum = total_sum/2;
-            }
-        }
-        for(int i = 1 ; i<= n ; i++){
-            if(vis[i] == 0){
-                set2.push_back(i);
-            }
-        }
-        cout<<set1.size()<<"\n";
-        for(auto x : set1){
-            cout<<x<<" ";
-        }
-        cout<<"\n";
-        cout<<set2.size()<<"\n";
-        for(auto x : set2){
-            cout<<x<<" ";
-        }
-        
+    int n;
+    cin >> n;
+ 
+    // Sum = 1 + 2 + ... + n
+    ll total_sum = 1LL * n * (n + 1) / 2;
+ 
+    // If total sum is odd, equal partition is impossible
+    if (total_sum % 2 != 0) {
+        cout << "NO\n";
+        return 0;
     }
  
+    cout << "YES\n";
  
+    ll target = total_sum / 2;
  
+    vector<int> set1, set2;
+    vector<bool> vis(n + 1, false);
+ 
+    ll set1_sum = 0;
+    int max_element = n;
+ 
+    while (set1_sum < target) {
+ 
+        ll remaining = target - set1_sum;
+ 
+        if (remaining >= max_element) {
+            // Take the largest element
+            set1.push_back(max_element);
+            vis[max_element] = true;
+ 
+            set1_sum += max_element;
+            max_element--;
+        }
+        else {
+            // Remaining amount itself can be selected
+            set1.push_back((int)remaining);
+            vis[remaining] = true;
+ 
+            set1_sum += remaining;
+        }
+    }
+ 
+    // Put all unused elements into set2
+    for (int i = 1; i <= n; i++) {
+        if (!vis[i]) {
+            set2.push_back(i);
+        }
+    }
+ 
+    // Print set1
+    cout << set1.size() << '\n';
+ 
+    for (int x : set1) {
+        cout << x << ' ';
+    }
+    cout << '\n';
+ 
+    // Print set2
+    cout << set2.size() << '\n';
+ 
+    for (int x : set2) {
+        cout << x << ' ';
+    }
+    cout << '\n';
  
     return 0;
 }
