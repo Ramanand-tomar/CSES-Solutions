@@ -14,6 +14,8 @@ int main() {
     int n ;
     cin>>n;
     int sum = 0;
+    vector<int>dx{1,1,2,2,-1,-1,-2,-2};
+    vector<int>dy{2,-2,1,-1,2,-2,1,-1};
     
     for(int k = 1 ; k<= n ; k++){
         int sum = 0;
