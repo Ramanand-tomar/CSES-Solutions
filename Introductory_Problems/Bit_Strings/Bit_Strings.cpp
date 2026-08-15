@@ -14,9 +14,16 @@ int main() {
     cin.tie(nullptr);
     int n;
     cin>>n;
-    ll a = 2;
-    while(n--){
-        a = (1ll*a*a)%MOD;
+    ll a = 1;
+    int t = n;
+    while(n){
+        if(n == t){
+            a = 2*a;
+        }
+        else{
+            a = (1ll*a*a)%MOD;
+        }
+        
     }
     cout<<a<<"\n";
  
