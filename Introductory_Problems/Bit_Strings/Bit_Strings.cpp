@@ -9,23 +9,25 @@
 using namespace std;
 using ll = long long;
 long long  MOD = 1e9 + 7;
+ll power(ll a , ll b){
+    ll ans = 1;
+    while(b>0){
+        if(b&1){
+            ans = (1ll*ans*a)%MOD;
+        }
+        a = (1ll*a*a)%MOD;
+        b >>= 1;
+    }
+    return ans;
+ 
+}
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    int n;
+    ll n;
     cin>>n;
-    ll a = 1;
-    int t = n;
-    while(n){
-        if(n == t){
-            a = 2*a;
-        }
-        else{
-            a = (1ll*a*a)%MOD;
-        }
-        
-    }
-    cout<<a<<"\n";
+    
+    cout<<power(2,n)<<"\n";
  
  
  
