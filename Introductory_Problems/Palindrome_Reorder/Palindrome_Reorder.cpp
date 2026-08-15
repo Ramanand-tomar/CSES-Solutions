@@ -26,7 +26,7 @@ int main() {
         cout<<"NO SOLUTION\n";
         return 0;
     }
-    string ans(N, ' ');
+    string ans(str.size(), ' ');
     int start = 0 , end = str.size()-1;
     for(int i = 0 ; i < str.size() ; i++){
         if(alph[str[i]]%2 == 1){
