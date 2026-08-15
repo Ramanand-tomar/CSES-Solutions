@@ -7,18 +7,18 @@
 
 #include <bits/stdc++.h>
 using namespace std;
- 
+using ll = long long;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     string str;
     cin>>str;
-    vector<int>alpha(26,0);
-    for(int i = 0 ; i < str.size() ; i++){
+    vector<ll>alpha(26,0);
+    for(ll i = 0 ; i < str.size() ; i++){
         alpha[str[i]-'A']++;
     }
     int count = 0;
-    for(int i = 0 ; i < 26 ; i++){
+    for(ll i = 0 ; i < 26 ; i++){
         if(alpha[i]%2 != 0){
             count++;
         }
@@ -28,8 +28,8 @@ int main() {
         return 0;
     }
     string ans(str.size(), ' ');
-    int start = 0 , end = str.size()-1;
-    for(int i = 0 ; i < str.size() ; i++){
+    ll start = 0 , end = str.size()-1;
+    for(ll i = 0 ; i < str.size() ; i++){
         if(alpha[str[i]]%2 == 1){
             // odd
             ans[str.size()/2] = str[i];
