@@ -11,45 +11,58 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    
     int t;
-    cin>>t;
-    while(t--){
-        int x , y;
-        cin>>x>>y;
-        int size = max(x,y);
-        int start = pow(size-1,2)+1;
-        int end = pow(size , 2);
-        int mid = (start + end)/2;
-        int x1 = size-x;
-        int y1 = size-y;
-        if(x1 == 0 && y1 == 0){
-            cout<<mid<<"\n";
-        }
-        if(size%2 == 0){
-            // right to left sort
-            if(y1 == 0){
-                cout<<mid-x1<<"\n";
-            }
-            else if(x1 == 0){
-                cout<<mid+y1<<"\n";
- 
-            }
-        }
-        else{
-            // left to right sort
-            if(y1 == 0){
-                cout<<mid+x1<<"\n";
-            }
-            else if(x1 == 0){
-                cout<<mid-y1<<"\n";
- 
-            }
- 
-        }
+    cin >> t;
+    
+    while(t--) {
+        long long y, x;
+        cin >> y >> x;
         
+        // Find which layer/ring this point belongs to
+        long long layer = max(y, x);
+        long long max_val = layer * layer;
+        long long min_val = (layer - 1) * (layer - 1) + 1;
+        
+        // If we're on the top row or left column (when layer is odd)
+        if(layer % 2 == 1) {
+            // Top row: values increase from left to right
+            if(y == 1) {
+                cout << min_val + x - 1 << "\n";
+            }
+            // Left column: values increase from top to bottom (going down)
+            else if(x == 1) {
+                cout << max_val - y + 1 << "\n";
+            }
+            // Right column: values decrease from bottom to top
+            else if(x == layer) {
+                cout << min_val + layer + (layer - y) << "\n";
+            }
+            // Bottom row: values decrease from right to left
+            else if(y == layer) {
+                cout << max_val - (layer - x) << "\n";
+            }
+        }
+        // If we're on the top row or left column (when layer is even)
+        else {
+            // Top row: values increase from right to left
+            if(y == 1) {
+                cout << max_val - x + 1 << "\n";
+            }
+            // Left column: values decrease from bottom to top
+            else if(x == 1) {
+                cout << min_val + layer - (y - 1) << "\n";
+            }
+            // Right column: values increase from top to bottom
+            else if(x == layer) {
+                cout << min_val + y - 1 << "\n";
+            }
+            // Bottom row: values increase from left to right
+            else if(y == layer) {
+                cout << max_val - (layer - x) << "\n";
+            }
+        }
     }
- 
- 
- 
+    
     return 0;
 }
