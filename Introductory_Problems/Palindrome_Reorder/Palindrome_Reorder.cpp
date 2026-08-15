@@ -17,6 +17,7 @@ int main() {
     for(int i = 0 ; i < str.size() ; i++){
         alpha[str[i]-'A']++;
     }
+    int count = 0;
     for(int i = 0 ; i < 26 ; i++){
         if(alpha[i]%2 != 0){
             count++;
@@ -29,14 +30,14 @@ int main() {
     string ans(str.size(), ' ');
     int start = 0 , end = str.size()-1;
     for(int i = 0 ; i < str.size() ; i++){
-        if(alph[str[i]]%2 == 1){
+        if(alpha[str[i]]%2 == 1){
             // odd
             ans[str.size()/2] = str[i];
             alpha[str[i]]--;
  
         }
         while(alpha[str[i]]>0){
-            ans[left] = ans[right] = str[i];
+            ans[start] = ans[end] = str[i];
             left++;
             right--;
             alpha[str[i]] -= 2;
