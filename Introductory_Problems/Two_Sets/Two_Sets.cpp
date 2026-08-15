@@ -13,7 +13,7 @@ int main() {
     cin.tie(nullptr);
     int n ;
     cin>>n;
-    ll total_sum = 1ll*n(1ll*n+1)/2;
+    ll total_sum = 1ll*n*(1ll*n+1)/2;
     if(total_sum%2 != 0){
         cout<<"NO\n";
     }
