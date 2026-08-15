@@ -7,13 +7,18 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-int MOD = 1e9 + 7;
+using ll = long long;
+long long  MOD = 1e9 + 7;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     int n;
     cin>>n;
-    cout<<pow(2,n)%MOD<<"\n";
+    ll a = 2;
+    while(n--){
+        a = (1ll*a*a)%MOD;
+    }
+    cout<<a<<"\n";
  
  
  
