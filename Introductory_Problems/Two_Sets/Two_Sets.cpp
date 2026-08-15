@@ -27,9 +27,10 @@ int main() {
             ll remaining_sum = total_sum/2 - set1_sum;
             if(remaining_sum > max_element){
                 vis[max_element] = 1;
+                set1.push_back(max_element);
                 max_element--;
                 set1_sum += max_element;
-                set1.push_back(max_element);
+                
  
             }
             else{
