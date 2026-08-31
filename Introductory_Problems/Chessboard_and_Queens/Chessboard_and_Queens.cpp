@@ -8,7 +8,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int ways = 0;
-bool cols[8] , diag1[8] , diag2[8];
+bool cols[8] , diag1[15] , diag2[15];
  
 void solve(int r , vector<string>&board){
     if(r == 8){
