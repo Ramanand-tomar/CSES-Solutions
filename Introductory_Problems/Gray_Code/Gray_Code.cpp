@@ -13,13 +13,15 @@ int main() {
     cin.tie(nullptr);
     int n ;
     cin>>n;
-    int times = pow(2,n);
+    int times = 1<<n;
     for(int i = 0 ; i < times ; i++){
-        cout<<(i^(i>>1))<<"\n";
+        int val = i^(i>>1); // it gives decimal like 3
+        // decimal to binary
+        for(int j = n-1 ; j>=0 ; j--){
+            cout<<((val>>j)&1);
+        }
+        cout<<"\n";
     }
- 
- 
- 
  
     return 0;
 }
