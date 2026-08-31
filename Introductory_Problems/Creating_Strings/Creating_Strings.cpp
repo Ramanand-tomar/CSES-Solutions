@@ -12,15 +12,15 @@ int n;
 vector<int>chars(26 , 0);
  
 void generate(string curr){
-    if(curr.size() == n){
-        result.push(curr);
- 
+    if(curr.length() == n){
+        result.push_back(curr);
+        return;
     }
     for(int i = 0 ; i < 26 ; i++){
         if(chars[i] > 0){
-            curr[i]--;
+            chars[i]--;
             generate(curr + (char)('a' + i));
-            curr[i]++;
+            chars[i]++;
         }
     }
 }
