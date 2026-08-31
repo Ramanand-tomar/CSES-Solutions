@@ -2,7 +2,7 @@
 
 Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/) progress, synced via **CSES to GitHub Extension**.
 
-![Problems Solved](https://img.shields.io/badge/CSES_Solved-16%2F300-brightgreen?style=for-the-badge&logo=codeforces)
+![Problems Solved](https://img.shields.io/badge/CSES_Solved-17%2F300-brightgreen?style=for-the-badge&logo=codeforces)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B%20%7C%20Python%20%7C%20Java-blue?style=for-the-badge)
 ![Auto Sync](https://img.shields.io/badge/Synced_By-CSES_Extension-orange?style=for-the-badge)
 
@@ -10,7 +10,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 
 | Category | Solved | Total | Progress |
 | :--- | :---: | :---: | :--- |
-| **Introductory Problems** | 16 | 24 | ███████░░░ 67% |
+| **Introductory Problems** | 17 | 24 | ███████░░░ 71% |
 | **Sorting and Searching** | 0 | 35 | ░░░░░░░░░░ 0% |
 | **Dynamic Programming** | 0 | 19 | ░░░░░░░░░░ 0% |
 | **Graph Algorithms** | 0 | 36 | ░░░░░░░░░░ 0% |
@@ -27,7 +27,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 ## 📁 Solutions Directory
 
 <details open>
-<summary><b>Introductory Problems (16)</b></summary>
+<summary><b>Introductory Problems (17)</b></summary>
 
 | ID | Problem Title | Solution | Language | Runtime | Memory |
 | :---: | :--- | :---: | :---: | :---: | :---: |
@@ -43,6 +43,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 | 1618 | [Trailing Zeros](https://cses.fi/problemset/task/1618) | [Code](./Introductory_Problems/Trailing_Zeros/Trailing_Zeros.cpp) | `C++` | 0.00 s | 0 MB |
 | 1622 | [Creating Strings](https://cses.fi/problemset/task/1622) | [Code](./Introductory_Problems/Creating_Strings/Creating_Strings.cpp) | `C++` | 0.00 s | 0 MB |
 | 1623 | [Apple Division](https://cses.fi/problemset/task/1623) | [Code](./Introductory_Problems/Apple_Division/Apple_Division.cpp) | `C++` | 0.00 s | 0 MB |
+| 1624 | [Chessboard and Queens](https://cses.fi/problemset/task/1624) | [Code](./Introductory_Problems/Chessboard_and_Queens/Chessboard_and_Queens.cpp) | `C++` | 0.00 s | 0 MB |
 | 1754 | [Coin Piles](https://cses.fi/problemset/task/1754) | [Code](./Introductory_Problems/Coin_Piles/Coin_Piles.cpp) | `C++` | 0.00 s | 0 MB |
 | 1755 | [Palindrome Reorder](https://cses.fi/problemset/task/1755) | [Code](./Introductory_Problems/Palindrome_Reorder/Palindrome_Reorder.cpp) | `C++` | 0.00 s | 0 MB |
 | 2165 | [Tower of Hanoi](https://cses.fi/problemset/task/2165) | [Code](./Introductory_Problems/Tower_of_Hanoi/Tower_of_Hanoi.cpp) | `C++` | 0.00 s | 0 MB |
@@ -51,4 +52,4 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 </details>
 
 
-*Last synchronized: Mon, 31 Aug 2026 06:40:54 GMT*
+*Last synchronized: Mon, 31 Aug 2026 09:20:11 GMT*
