@@ -2,7 +2,7 @@
 
 Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/) progress, synced via **CSES to GitHub Extension**.
 
-![Problems Solved](https://img.shields.io/badge/CSES_Solved-12%2F300-brightgreen?style=for-the-badge&logo=codeforces)
+![Problems Solved](https://img.shields.io/badge/CSES_Solved-13%2F300-brightgreen?style=for-the-badge&logo=codeforces)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B%20%7C%20Python%20%7C%20Java-blue?style=for-the-badge)
 ![Auto Sync](https://img.shields.io/badge/Synced_By-CSES_Extension-orange?style=for-the-badge)
 
@@ -10,7 +10,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 
 | Category | Solved | Total | Progress |
 | :--- | :---: | :---: | :--- |
-| **Introductory Problems** | 12 | 24 | █████░░░░░ 50% |
+| **Introductory Problems** | 13 | 24 | █████░░░░░ 54% |
 | **Sorting and Searching** | 0 | 35 | ░░░░░░░░░░ 0% |
 | **Dynamic Programming** | 0 | 19 | ░░░░░░░░░░ 0% |
 | **Graph Algorithms** | 0 | 36 | ░░░░░░░░░░ 0% |
@@ -27,7 +27,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 ## 📁 Solutions Directory
 
 <details open>
-<summary><b>Introductory Problems (12)</b></summary>
+<summary><b>Introductory Problems (13)</b></summary>
 
 | ID | Problem Title | Solution | Language | Runtime | Memory |
 | :---: | :--- | :---: | :---: | :---: | :---: |
@@ -43,8 +43,9 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 | 1618 | [Trailing Zeros](https://cses.fi/problemset/task/1618) | [Code](./Introductory_Problems/Trailing_Zeros/Trailing_Zeros.cpp) | `C++` | 0.00 s | 0 MB |
 | 1754 | [Coin Piles](https://cses.fi/problemset/task/1754) | [Code](./Introductory_Problems/Coin_Piles/Coin_Piles.cpp) | `C++` | 0.00 s | 0 MB |
 | 1755 | [Palindrome Reorder](https://cses.fi/problemset/task/1755) | [Code](./Introductory_Problems/Palindrome_Reorder/Palindrome_Reorder.cpp) | `C++` | 0.00 s | 0 MB |
+| 2205 | [Gray Code](https://cses.fi/problemset/task/2205) | [Code](./Introductory_Problems/Gray_Code/Gray_Code.cpp) | `C++` | 0.00 s | 0 MB |
 
 </details>
 
 
-*Last synchronized: Sat, 15 Aug 2026 13:53:15 GMT*
+*Last synchronized: Mon, 31 Aug 2026 05:11:07 GMT*
