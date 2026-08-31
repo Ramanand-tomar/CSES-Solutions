@@ -35,7 +35,7 @@ void solve(int r , vector<string>&board){
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    vector<string>board;
+    vector<string>board(8);
     for(int i = 0 ; i < 8 ; i++){
         cin>>board[i];
     }
