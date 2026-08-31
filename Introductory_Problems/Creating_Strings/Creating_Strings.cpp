@@ -7,6 +7,23 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+vector<string>result;
+int n;
+vector<int>chars(26 , 0);
+ 
+void generate(string curr){
+    if(curr.size() == n){
+        result.push(curr);
+ 
+    }
+    for(int i = 0 ; i < 26 ; i++){
+        if(chars[i] > 0){
+            curr[i]--;
+            generate(curr + (char)('a' + i));
+            curr[i]++;
+        }
+    }
+}
  
 int main() {
     ios::sync_with_stdio(false);
@@ -14,17 +31,17 @@ int main() {
  
     string s;
     cin>>s;
-    sort(s.begin() , s.end());
-    vector<string>perms;
- 
-    do{
-        perms.push_back(s);
- 
-    }while(next_permutation(s.begin() , s.end()));
-    cout<<perms.size()<<"\n";
-    for(int i = 0 ; i < perms.size() ; i++){
-        cout<<perms[i]<<"\n";
+    n = s.size();
+    for(int i = 0 ; i < s.size() ; i++){
+        chars[s[i]-'a']++;
     }
+    generate("");
+    cout<<result.size()<<"\n";
+    for(auto x : result){
+        cout<<x<<"\n";
+    }
+ 
+    
  
  
  
