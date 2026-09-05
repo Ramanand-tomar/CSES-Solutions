@@ -14,7 +14,7 @@ ll solve(ll k){
     ll start = 1;
     while(true){
         ll count = 9*start;
-        ll total = count*digits;
+        ll total = count*digit;
  
         if(k <= total){
             break;
