@@ -22,18 +22,18 @@ int main() {
         }
         cout<<"YES\n";
         vector<int>p1(n),p2(n);
-        itoa(p1.begin() , p1.end(), 1);
+        iota(p1.begin() , p1.end(), 1);
         if(a == 0 && b == 0){
             p2 = p1;
         }
         else{
-            int m = n - (a+b);
+            int m = (a+b);
             for(int i = 0 ; i < m ; i++){
-                p2 = (i + a)%m + 1;
+                p2[i] = (i + a)%m + 1;
  
             }
             for(int i = m ; i < n ; i++){
-                p2 = (i+1);
+                p2[i] = (i+1);
             }
         }
         for(auto x : p1){
