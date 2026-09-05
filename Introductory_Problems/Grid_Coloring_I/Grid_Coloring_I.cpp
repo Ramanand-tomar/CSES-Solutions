@@ -5,7 +5,7 @@
  * CSES URL: https://cses.fi/problemset/task/3311
  */
 
-in#include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
  
 int main() {
