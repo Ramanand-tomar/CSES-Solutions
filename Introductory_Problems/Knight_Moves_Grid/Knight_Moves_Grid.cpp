@@ -42,8 +42,9 @@ int main() {
             for(int j = 0 ; j < n ; j++){
                 cout<<dist[i][j]<<" ";
             }
+            cout<<'\n';
         }
-        cout<<'\n';
+        
     }
  
  
