@@ -36,7 +36,7 @@ int main() {
     int q;
     cin>>q;
     while(q--){
-        int k;
+        ll k;
         cin>>k;
         cout<<solve(k)<<"\n";
     }
