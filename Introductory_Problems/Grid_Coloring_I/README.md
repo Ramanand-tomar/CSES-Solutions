@@ -2,57 +2,51 @@
 
 **CSES Problem ID:** `3311`  
 **Category:** Introductory Problems  
-**CSES Task URL:** https://cses.fi/problemset/task/3311  
+**CSES Task URL:** [https://cses.fi/problemset/task/3311](https://cses.fi/problemset/task/3311)  
+**Time Limit:** 1.00 s  
+**Memory Limit:** 512 MB  
 
 ---
 
-Submission details
-Task:	Grid Coloring I
-Sender:	ramanand07
-Submission time:	2026-09-05 19:19:30 +0300
-Language:	C++ (C++17)
-Status:	COMPILE ERROR
-Code
-in#include <bits/stdc++.h>
-using namespace std;
- 
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    int m , n;
-    cin>>n>>m;
-    vector<string>grid(n);
-    for(int i = 0 ; i < n ; i++){
-        string row ;
-        cin>>row;
-        grid[i] = row;
-    }
-    for(int i = 0 ; i < n ; i++){
-        for(int j = 0 ; j < m ; j++){
-            if((i+j)%2 == 0){
-                if(grid[i][j] == 'A'){
-                    grid[i][j] = 'B';
-                }
-                else{
-                    grid[i][j] = 'A';
-                }
-            }
-            else{
-                if(grid[i][j] == 'C'){
-                    grid[i][j] = 'D';
-                }
-                else{
-                    grid[i][j] = 'C';
-                }
- 
-            }
-        }
-        for(int i = 0 ; i < n ; i++){
-            cout<<grid[i]<<"\n";
-        }
-    }
- 
- 
-    return 0;
-}
-SHARE CODE TO OTHERS
+You are given an$n× m$grid where each cell contains one character`A`,`B`,`C`or`D`.
+
+For each cell, you must change the character to`A`,`B`,`C`or`D`. The new character must be different from the old one.
+
+Your task is to change the characters in every cell such that no two adjacent cells have the same character.
+
+### Input
+
+The first line has two integers$n$and$m$: the number of rows and columns.
+
+The next$n$lines each have$m$characters: the description of the grid.
+
+### Output
+
+Print$n$lines each with$m$characters: the description of the final grid.
+
+You may print any valid solution.
+
+If no solution exists, just print`IMPOSSIBLE`.
+
+### Constraints
+
+- $1 ≤ n, m ≤ 500$
+
+### Example
+
+Input:
+
+```
+3 4
+AAAA
+BBBB
+CCDD
+```
+
+Output:
+
+```
+CDCD
+DCDC
+ABAB
+```
