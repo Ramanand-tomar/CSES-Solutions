@@ -2,7 +2,7 @@
 
 Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/) progress, synced via **CSES to GitHub Extension**.
 
-![Problems Solved](https://img.shields.io/badge/CSES_Solved-18%2F300-brightgreen?style=for-the-badge&logo=codeforces)
+![Problems Solved](https://img.shields.io/badge/CSES_Solved-19%2F300-brightgreen?style=for-the-badge&logo=codeforces)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B%20%7C%20Python%20%7C%20Java-blue?style=for-the-badge)
 ![Auto Sync](https://img.shields.io/badge/Synced_By-CSES_Extension-orange?style=for-the-badge)
 
@@ -10,7 +10,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 
 | Category | Solved | Total | Progress |
 | :--- | :---: | :---: | :--- |
-| **Introductory Problems** | 18 | 24 | ████████░░ 75% |
+| **Introductory Problems** | 19 | 24 | ████████░░ 79% |
 | **Sorting and Searching** | 0 | 35 | ░░░░░░░░░░ 0% |
 | **Dynamic Programming** | 0 | 19 | ░░░░░░░░░░ 0% |
 | **Graph Algorithms** | 0 | 36 | ░░░░░░░░░░ 0% |
@@ -27,7 +27,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 ## 📁 Solutions Directory
 
 <details open>
-<summary><b>Introductory Problems (18)</b></summary>
+<summary><b>Introductory Problems (19)</b></summary>
 
 | ID | Problem Title | Solution | Language | Runtime | Memory |
 | :---: | :--- | :---: | :---: | :---: | :---: |
@@ -49,8 +49,9 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 | 2165 | [Tower of Hanoi](https://cses.fi/problemset/task/2165) | [Code](./Introductory_Problems/Tower_of_Hanoi/Tower_of_Hanoi.cpp) | `C++` | 0.00 s | 0 MB |
 | 2205 | [Gray Code](https://cses.fi/problemset/task/2205) | [Code](./Introductory_Problems/Gray_Code/Gray_Code.cpp) | `C++` | 0.00 s | 0 MB |
 | 3399 | [Raab Game I](https://cses.fi/problemset/task/3399) | [Code](./Introductory_Problems/Raab_Game_I/Raab_Game_I.cpp) | `C++` | 0.00 s | 0 MB |
+| 3419 | [Mex Grid Construction](https://cses.fi/problemset/task/3419) | [Code](./Introductory_Problems/Mex_Grid_Construction/Mex_Grid_Construction.cpp) | `C++` | 0.00 s | 0 MB |
 
 </details>
 
 
-*Last synchronized: Sat, 05 Sep 2026 13:33:42 GMT*
+*Last synchronized: Sat, 05 Sep 2026 13:54:09 GMT*
