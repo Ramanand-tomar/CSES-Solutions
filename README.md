@@ -2,7 +2,7 @@
 
 Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/) progress, synced via **CSES to GitHub Extension**.
 
-![Problems Solved](https://img.shields.io/badge/CSES_Solved-17%2F300-brightgreen?style=for-the-badge&logo=codeforces)
+![Problems Solved](https://img.shields.io/badge/CSES_Solved-18%2F300-brightgreen?style=for-the-badge&logo=codeforces)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B%20%7C%20Python%20%7C%20Java-blue?style=for-the-badge)
 ![Auto Sync](https://img.shields.io/badge/Synced_By-CSES_Extension-orange?style=for-the-badge)
 
@@ -10,7 +10,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 
 | Category | Solved | Total | Progress |
 | :--- | :---: | :---: | :--- |
-| **Introductory Problems** | 17 | 24 | ███████░░░ 71% |
+| **Introductory Problems** | 18 | 24 | ████████░░ 75% |
 | **Sorting and Searching** | 0 | 35 | ░░░░░░░░░░ 0% |
 | **Dynamic Programming** | 0 | 19 | ░░░░░░░░░░ 0% |
 | **Graph Algorithms** | 0 | 36 | ░░░░░░░░░░ 0% |
@@ -27,7 +27,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 ## 📁 Solutions Directory
 
 <details open>
-<summary><b>Introductory Problems (17)</b></summary>
+<summary><b>Introductory Problems (18)</b></summary>
 
 | ID | Problem Title | Solution | Language | Runtime | Memory |
 | :---: | :--- | :---: | :---: | :---: | :---: |
@@ -48,8 +48,9 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 | 1755 | [Palindrome Reorder](https://cses.fi/problemset/task/1755) | [Code](./Introductory_Problems/Palindrome_Reorder/Palindrome_Reorder.cpp) | `C++` | 0.00 s | 0 MB |
 | 2165 | [Tower of Hanoi](https://cses.fi/problemset/task/2165) | [Code](./Introductory_Problems/Tower_of_Hanoi/Tower_of_Hanoi.cpp) | `C++` | 0.00 s | 0 MB |
 | 2205 | [Gray Code](https://cses.fi/problemset/task/2205) | [Code](./Introductory_Problems/Gray_Code/Gray_Code.cpp) | `C++` | 0.00 s | 0 MB |
+| 3399 | [Raab Game I](https://cses.fi/problemset/task/3399) | [Code](./Introductory_Problems/Raab_Game_I/Raab_Game_I.cpp) | `C++` | 0.00 s | 0 MB |
 
 </details>
 
 
-*Last synchronized: Mon, 31 Aug 2026 09:24:30 GMT*
+*Last synchronized: Sat, 05 Sep 2026 13:31:36 GMT*
