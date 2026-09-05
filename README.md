@@ -2,7 +2,7 @@
 
 Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/) progress, synced via **CSES to GitHub Extension**.
 
-![Problems Solved](https://img.shields.io/badge/CSES_Solved-20%2F300-brightgreen?style=for-the-badge&logo=codeforces)
+![Problems Solved](https://img.shields.io/badge/CSES_Solved-21%2F300-brightgreen?style=for-the-badge&logo=codeforces)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B%20%7C%20Python%20%7C%20Java-blue?style=for-the-badge)
 ![Auto Sync](https://img.shields.io/badge/Synced_By-CSES_Extension-orange?style=for-the-badge)
 
@@ -10,7 +10,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 
 | Category | Solved | Total | Progress |
 | :--- | :---: | :---: | :--- |
-| **Introductory Problems** | 20 | 24 | ████████░░ 83% |
+| **Introductory Problems** | 21 | 24 | █████████░ 88% |
 | **Sorting and Searching** | 0 | 35 | ░░░░░░░░░░ 0% |
 | **Dynamic Programming** | 0 | 19 | ░░░░░░░░░░ 0% |
 | **Graph Algorithms** | 0 | 36 | ░░░░░░░░░░ 0% |
@@ -27,7 +27,7 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 ## 📁 Solutions Directory
 
 <details open>
-<summary><b>Introductory Problems (20)</b></summary>
+<summary><b>Introductory Problems (21)</b></summary>
 
 | ID | Problem Title | Solution | Language | Runtime | Memory |
 | :---: | :--- | :---: | :---: | :---: | :---: |
@@ -49,10 +49,11 @@ Automated solution repository for [CSES Problem Set](https://cses.fi/problemset/
 | 2165 | [Tower of Hanoi](https://cses.fi/problemset/task/2165) | [Code](./Introductory_Problems/Tower_of_Hanoi/Tower_of_Hanoi.cpp) | `C++` | 0.00 s | 0 MB |
 | 2205 | [Gray Code](https://cses.fi/problemset/task/2205) | [Code](./Introductory_Problems/Gray_Code/Gray_Code.cpp) | `C++` | 0.00 s | 0 MB |
 | 3217 | [Knight Moves Grid](https://cses.fi/problemset/task/3217) | [Code](./Introductory_Problems/Knight_Moves_Grid/Knight_Moves_Grid.cpp) | `C++` | 0.00 s | 0 MB |
+| 3311 | [Grid Coloring I](https://cses.fi/problemset/task/3311) | [Code](./Introductory_Problems/Grid_Coloring_I/Grid_Coloring_I.cpp) | `C++` | 0.00 s | 0 MB |
 | 3399 | [Raab Game I](https://cses.fi/problemset/task/3399) | [Code](./Introductory_Problems/Raab_Game_I/Raab_Game_I.cpp) | `C++` | 0.00 s | 0 MB |
 | 3419 | [Mex Grid Construction](https://cses.fi/problemset/task/3419) | [Code](./Introductory_Problems/Mex_Grid_Construction/Mex_Grid_Construction.cpp) | `C++` | 0.00 s | 0 MB |
 
 </details>
 
 
-*Last synchronized: Sat, 05 Sep 2026 14:16:15 GMT*
+*Last synchronized: Sat, 05 Sep 2026 16:19:29 GMT*
